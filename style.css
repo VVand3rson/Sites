@@ -1,0 +1,206 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            overflow-x: hidden;
+        }
+
+        header img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            color: blue;
+            border-top: 1px solid blue;
+            width: 100%;
+        }
+
+        footer img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer h2, address {
+            color: blue;
+        }
+
+        h3 {
+            margin-top: 10px;
+        }
+
+        #convite {
+            color: red;
+            font-size: x-large;
+        }
+
+        #prof, #atuação {
+            color: red;
+            text-align: center;
+            font-size: xx-large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        #imgConsulta {
+            height: 200px;
+            width: 100%;
+        }
+
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            align-items: center;
+            text-align: center;
+        }
+
+        .main-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 0;
+        }
+
+        .services, .profissionais, .contacts {
+            margin-top: 20px;
+        }
+
+        .services h2, .profissionais h2, .contacts h2 {
+            color: #333;
+        }
+
+        .services ul, .profissionais ul {
+            list-style: none;
+            padding: 5px;
+        }
+
+        .services li, .profissionais li {
+            background: #f4f4f4;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: #ccc 1px solid;
+        }
+
+        .contatos {
+            color: #fff;
+            padding: 20px;
+        }
+
+        .contatos a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .contatos a:hover {
+            text-decoration: underline;
+        }
+
+        .contatos img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        .profissionais-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .profissionais {
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 300px;
+            margin: 20px;
+            padding: 1px;
+            border: 1px solid #ccc;
+        }
+
+        .imgDr {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            color: white;
+            
+        }
+
+        .services div {
+            width: 100%;
+            max-width: 45%;
+            margin: 10px;
+            text-align: center;
+        }
+
+        #espec {
+            border: solid 1px blue;
+            background-color: blue;
+            padding: 20px;
+            color: white;
+            justify-content: center;
+            font-size: medium;
+            width: 40%;
+            align-items: center;
+            
+        }
+
+        #desc {
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .contatos {
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .contatos a {
+            display: flex;
+            align-items: center;
+            padding-right: 5px;
+            
+        }
+
+        #listfooter {
+            list-style: none;
+            padding-left: 0;
+            color: blue;
+        }
+
+        @media screen and (max-width: 768px) {
+            .profissionais-container, .services {
+                flex-direction: column;
+            }
+
+            .services div {
+                max-width: 100%;
+            }
+
+            .contatos {
+                flex-direction: column;
+            }
+     
+        }
